@@ -32,7 +32,7 @@ A RESTful API built with Laravel 12 for managing tasks across isolated tenants. 
 ## Setup
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/FawziFawzi/task-app.git
 cd task-app
 
 composer install
@@ -128,9 +128,6 @@ A `TaskActivityJob` is dispatched on every task create, update, and delete for a
 
 ## Testing
 
-```bash
-php artisan test
-```
 
 Coverage areas:
 - Authentication (register, login, logout)
@@ -145,6 +142,4 @@ Coverage areas:
 - API Resources
 - Factories and Seeders
 
-## License
 
-MIT
